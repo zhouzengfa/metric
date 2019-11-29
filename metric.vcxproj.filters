@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\cppmetrics">
+      <UniqueIdentifier>{b6abd693-8fb0-4399-877f-0c0fbed6e2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cppmetrics\concurrent">
+      <UniqueIdentifier>{f7a022bc-8037-41b7-bbfd-b0dfe047b0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cppmetrics\core">
+      <UniqueIdentifier>{3ce25bc3-77e3-422b-a344-b0c959953218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cppmetrics\graphite">
+      <UniqueIdentifier>{4df816be-63f4-475f-a819-19ca38b64504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\cppmetrics">
+      <UniqueIdentifier>{9ced60c2-e0c6-4b5d-ba06-eb48e0a79f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\cppmetrics\concurrent">
+      <UniqueIdentifier>{a74d4e8f-dc8a-4766-890f-400631ed09f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\cppmetrics\core">
+      <UniqueIdentifier>{c0148c94-15a3-464a-9bb7-d46e0f7c0418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\cppmetrics\graphite">
+      <UniqueIdentifier>{2643401a-16fa-4ff1-a881-f636837c1d71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cppmetrics\cppmetrics.h">
+      <Filter>src\cppmetrics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\concurrent\simple_scheduled_thread_pool_executor.h">
+      <Filter>src\cppmetrics\concurrent</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\concurrent\simple_thread_pool_executor.h">
+      <Filter>src\cppmetrics\concurrent</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\exp_decay_sample.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\gauge.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\histogram.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\influxdb.hpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\influxdb_reporter.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\meter.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\metered.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\metric.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\metric_registry.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\reporter.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\sample.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\sampling.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\scheduled_reporter.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\snapshot.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\timer.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\timer_context.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\types.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\uniform_sample.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\utils.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\console_reporter.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\counter.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\core\ewma.h">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\graphite\graphite_reporter.h">
+      <Filter>src\cppmetrics\graphite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\graphite\graphite_sender.h">
+      <Filter>src\cppmetrics\graphite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cppmetrics\graphite\graphite_sender_tcp.h">
+      <Filter>src\cppmetrics\graphite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cppmetrics\concurrent\simple_scheduled_thread_pool_executor.cpp">
+      <Filter>src\cppmetrics\concurrent</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\concurrent\simple_thread_pool_executor.cpp">
+      <Filter>src\cppmetrics\concurrent</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\exp_decay_sample.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\histogram.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\influxdb_reporter.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\meter.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\metric_registry.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\scheduled_reporter.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\snapshot.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\timer.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\timer_context.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\uniform_sample.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\console_reporter.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\core\ewma.cpp">
+      <Filter>src\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\graphite\graphite_reporter.cpp">
+      <Filter>src\cppmetrics\graphite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cppmetrics\graphite\graphite_sender_tcp.cpp">
+      <Filter>src\cppmetrics\graphite</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\concurrent\test_simple_scheduled_thread_pool_executor.cpp">
+      <Filter>test\cppmetrics\concurrent</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\concurrent\test_simple_thread_pool_executor.cpp">
+      <Filter>test\cppmetrics\concurrent</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_console_reporter.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_counter.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_ewma.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_exp_decay_sample.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_histogram.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_influxdb_reporter.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_meter.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_metric_registry.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_scheduled_reporter.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_snapshot.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_timer.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\core\test_uniform_sample.cpp">
+      <Filter>test\cppmetrics\core</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\graphite\test_graphite_reporter.cpp">
+      <Filter>test\cppmetrics\graphite</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cppmetrics\graphite\test_graphite_sender_tcp.cpp">
+      <Filter>test\cppmetrics\graphite</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
